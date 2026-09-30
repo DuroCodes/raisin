@@ -56,7 +56,7 @@ Windows:
 git clone https://github.com/durocodes/raisin "%APPDATA%\typst\packages\local\raisin\1.0.0"
 ```
 
-then import `@local/raisin:1.0.0`.
+then import `@local/raisin:1.0.0`
 
 ## license
 
