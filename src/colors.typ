@@ -1,0 +1,6 @@
+#let blue = rgb("#648fff").darken(50%)
+#let purple = rgb("#555ef0").darken(50%)
+#let maroon = rgb("#dc267f").darken(50%)
+#let brown = rgb("#fe6100").darken(50%)
+#let yellow = rgb("#ffb000").darken(50%)
+#let green = rgb("#33a02c").darken(50%)

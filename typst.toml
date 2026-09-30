@@ -1,0 +1,14 @@
+[package]
+name = "raisin"
+version = "1.0.0"
+compiler = "0.11.0"
+entrypoint = "src/library.typ"
+
+authors = ["David Wright <david@durocodes.me>"]
+
+repository = "https://github.com/durocodes/raisin"
+license = "MIT"
+
+keywords = ["clean", "minimal", "paper", "school"]
+description = "A small Typst template for school papers, stripped down from grape-suite."
+categories = ["layout", "paper"]
