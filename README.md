@@ -41,21 +41,19 @@ typst does not install from a git url. clone this repo into the local package di
 macOS:
 
 ```bash
-git clone https://github.com/durocodes/raisin \
-  "$HOME/Library/Application Support/typst/packages/local/raisin/1.0.0"
+git clone https://github.com/durocodes/raisin "$HOME/Library/Application Support/typst/packages/local/raisin/1.0.0"
 ```
 
 Linux:
 
 ```bash
-git clone https://github.com/durocodes/raisin \
-  "${XDG_DATA_HOME:-$HOME/.local/share}/typst/packages/local/raisin/1.0.0"
+git clone https://github.com/durocodes/raisin  "${XDG_DATA_HOME:-$HOME/.local/share}/typst/packages/local/raisin/1.0.0"
 ```
 
 Windows:
+
 ```powershell
-git clone https://github.com/durocodes/raisin \
-  "%APPDATA%\typst\packages\local\raisin\1.0.0"
+git clone https://github.com/durocodes/raisin "%APPDATA%\typst\packages\local\raisin\1.0.0"
 ```
 
 then import `@local/raisin:1.0.0`.
