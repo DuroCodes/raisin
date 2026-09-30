@@ -4,36 +4,6 @@ a small typst template for school papers. title page, sections, notes, and table
 
 largely inspired by [grape-suite](https://typst.app/universe/package/grape-suite/) by Tristan Pieper. this is that idea stripped down for personal use.
 
-## usage
-
-```typst
-#import "@local/raisin:1.0.0": colors, config, note, section, title-page
-
-#show: config.with(
-  author: [Ada Lovelace],
-  course: [CSCI 6767],
-  color: colors.maroon,
-)
-
-#title-page([Paper Title], subtitle: [A short subtitle])
-
-#section([Introduction])[
-  = Background
-
-  Body text.
-
-  #note[
-    == Aside
-    A callout. Headings inside a note stay inside the box.
-  ]
-]
-
-// `pagebreak` controls the break after this section.
-#section(pagebreak: false)[Appendix][
-  Continues on the same page.
-]
-```
-
 ## install
 
 typst does not install from a git url. clone this repo into the local package directory, with the version as the last folder.
@@ -57,6 +27,10 @@ git clone https://github.com/durocodes/raisin "%APPDATA%\typst\packages\local\ra
 ```
 
 then import `@local/raisin:1.0.0`
+
+## usage
+
+you can view examples in the `examples` directory.
 
 ## license
 
