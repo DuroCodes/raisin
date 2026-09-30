@@ -47,7 +47,7 @@ git clone https://github.com/durocodes/raisin "$HOME/Library/Application Support
 Linux:
 
 ```bash
-git clone https://github.com/durocodes/raisin  "${XDG_DATA_HOME:-$HOME/.local/share}/typst/packages/local/raisin/1.0.0"
+git clone https://github.com/durocodes/raisin "${XDG_DATA_HOME:-$HOME/.local/share}/typst/packages/local/raisin/1.0.0"
 ```
 
 Windows:
