@@ -60,4 +60,5 @@ then import `@local/raisin:1.0.0`.
 
 ## license
 
-MIT. grape-suite is copyright (c) 2024 Tristan Pieper. changes in this package are copyright (c) 2026 David Wright. see `LICENSE`.
+- grape-suite is MIT licensed (c) 2024 Tristan Pieper.
+- changes in this package are MIT licensed (c) 2026 David Wright.
